@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(backgroundp2.png);
+}
+
+#container {
+	width:768px;
+	margin:auto
+}
+article{
+	margin-bottom:50px;
+}
+h2{
+	
+}
+h3{
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    color: rgba(30,126,108,1.00);
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+	padding-left: 10px;
+}
+img{
+	float:right;
+	padding-left:10px;
+	padding-right:10px;
+}
+p {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-left:10px;
+}
+
+h1{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-style: oblique;
+    font-size: small;
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+}
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url("newtravel_logo.png");
+}
+
+aside {
+    background-color: #00464C;
+    width: 150px;
+    height: 2490px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: rgba(255,255,255,1.00);
+    padding-left: 10px;
+    padding-top: 10px;
+    }
+main {
+	width:618px;
+	height:2500px;
+	background-color:white;	
+	float:right;
+}
+
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #016994;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    color: rgba(255,255,255,1.00);
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+	padding-top:30px;
+}
+
+.floatLeft {
+	float: left;
+}
+table {
+	padding-left:50px;
+}
+
+nav {
+	width:768px;
+	height:50px;
+	background-color:white;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 90px 0px 0px;
+    width: 60px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    text-transform: uppercase;
+	font-size:16pt;
+}
+#container nav ul {
+	margin:auto;
+	width:900px;
+}
+nav a:link{
+	text-decoration:none;
+	color:#016994
+}
+nav a:visted{
+	text-decoration:none;
+	color:#00464C
+}
+nav a:hover{
+	text-decoration:none;
+	color:#FFFFFF;
+	background-color:#1F7E6C;
+	padding:10px;
+	border-radius:20px;
+}
+.submit_btn{
+
+	
+}
